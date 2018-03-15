@@ -13,8 +13,8 @@ body {
 }
 
 .menu, .main, .copyright {
-    overflow-y: hidden;
     overflow-x: hidden;
+    overflow-y: hidden;
     width: 100%;
 }
 
@@ -24,12 +24,11 @@ body {
 }
 
 .main {
-    height: 90%;
+    height: 85%;
     overflow-y: scroll;
-}5
+}
 
 .copyright {
-    height: 20%;
     text-align: center;
-    background-color: white;
+    background-color: red;
 }
