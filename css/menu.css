@@ -1,0 +1,8 @@
+#menu {
+    position: fixed;
+    height: 15%;
+    background-color: blue;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+}

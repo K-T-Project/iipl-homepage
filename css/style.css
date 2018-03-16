@@ -11,16 +11,10 @@ body {
     overflow: hidden;
 }
 
-.menu, .main, #copyright {
+.main, #copyright {
     overflow-x: hidden;
     overflow-y: hidden;
     width: 100%;
-}
-
-.menu {
-    position: fixed;
-    height: 15%;
-    background-color: blue;
 }
 
 .main {
