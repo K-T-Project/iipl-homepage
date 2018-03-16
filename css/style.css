@@ -3,31 +3,33 @@ body {
     padding: 0;
 }
 
-.home {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
+#back {
     width: 100%;
-    overflow: hidden;
+    height: 200%;
+    overflow: auto;
 }
 
-.main, #copyright {
+
+#main, #copyright {
     overflow-x: hidden;
     overflow-y: hidden;
-    width: 100%;
 }
 
-.main {
-    height: 85%;
-    overflow-y: scroll;
+#main {
+    margin-top: 60px;
+    overflow-y: auto;
+    margin-left: auto;
+    width: 900px;
+    height: 100%;
+    margin-right: auto;
+    background-color: red;
 }
 
 #copyright {
-    position: fixed;
     text-align: center;
-    background-color: white;
-    bottom: 0;
-    font-size: 0.75rem;
+    background-color: yellow;
     width: 100%;
+    bottom: 0%;
+    font-size: 0.75rem;
     height: 70px;
 }
