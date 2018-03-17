@@ -1,3 +1,5 @@
+@media print, screen and (min-width:640px){
+
 #menu {
     position: fixed;
     height: 80px;
@@ -5,4 +7,6 @@
     overflow: hidden;
     width: 100%;
     z-index: 100;
+}
+
 }

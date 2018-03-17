@@ -1,3 +1,11 @@
+@media screen and (max-width: 640px) {
+
+img{
+max-width: 100%;
+height: auto;
+width /***/:auto;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -31,4 +39,7 @@ body {
     bottom: 0;
     font-size: 0.75rem;
     height: 70px;
+
+  }
+  
 }
