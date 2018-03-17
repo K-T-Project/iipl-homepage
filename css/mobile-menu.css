@@ -1,7 +1,6 @@
 #menu {
-    position: fixed;
     height: 80px;
-    background-color: blue;
+    background-color: brown;
     overflow: hidden;
     width: 100%;
     z-index: 100;
