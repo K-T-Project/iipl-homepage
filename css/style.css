@@ -32,4 +32,6 @@ body {
     bottom: 0;
     font-size: 0.75rem;
     height: 70px;
+    opacity: 1;
+    z-index: 100;
 }
